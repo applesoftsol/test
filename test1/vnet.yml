@@ -1,8 +1,8 @@
 
 - name: Create resource group
    azure_rm_resourcegroup:
-      name: Testing
-      location: eastus
+     name: Testing
+     location: eastus
    register: rg
 
 - name: Create virtual network
