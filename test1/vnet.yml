@@ -1,9 +1,3 @@
-
-- name: Create resource group
-  azure_rm_resourcegroup:
-    name: Testing
-    location: eastus
-
 - name: Create virtual network
   azure_rm_virtualnetwork:
     resource_group: Testing
