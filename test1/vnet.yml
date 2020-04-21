@@ -3,7 +3,7 @@
   azure_rm_resourcegroup:
     name: Testing
     location: eastus
-   register: rg
+  register: rg
 
 - name: Create virtual network
   azure_rm_virtualnetwork:
